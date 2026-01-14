@@ -198,7 +198,7 @@ lista_taskuri = tk.Listbox(root, width=75, height=15, font=FONT_LISTA, bg="white
 lista_taskuri.pack(pady=10)
 
 tk.Button(root, text="Adaugă", font=FONT_BUTTON, bg="green", fg="white", width=25, command=adauga_task).pack(pady=3)
-tk.Button(root, text="Editează", font=FONT_BUTTON, bg="yellow", width=25, command=editeaza_task).pack(pady=3)
+tk.Button(root, text="Editează", font=FONT_BUTTON, bg="cyan", width=25, command=editeaza_task).pack(pady=3)
 tk.Button(root, text="Task terminat", font=FONT_BUTTON, bg="lightblue", width=25, command=task_terminat).pack(pady=3)
 tk.Button(root, text="Șterge task", font=FONT_BUTTON, bg="red", fg="white", width=25, command=sterge_task).pack(pady=3)
 tk.Button(root, text="Șterge toate task-urile", font=FONT_BUTTON, bg="darkred", fg="white", width=25, command=sterge_toate_taskurile).pack(pady=5)
